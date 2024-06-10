@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/busana"
+        android:name="com.example.test_jobsheet_14.bluefragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:ignore="MissingClass"
+        tools:layout="@layout/fragment_blue">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/pplg"
+        android:name="com.example.test_jobsheet_14.plumfragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_plum"
+        tools:ignore="MissingClass">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/Teknik Otomotif"
+        android:name="com.example.test_jobsheet_14.purpleFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:ignore="MissingClass"
+        tools:layout="@layout/fragment_purple">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/TPFL"
+        android:name="com.example.test_jobsheet_14.orangeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_orange"
+        tools:ignore="MissingClass">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/Kuliner"
+        android:name="com.example.test_jobsheet_14.grayFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_gray"
+        tools:ignore="MissingClass">
+
+    </fragment>
+
+</LinearLayout>
